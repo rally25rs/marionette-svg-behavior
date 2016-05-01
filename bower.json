@@ -1,0 +1,24 @@
+{
+  "name": "marionette-svg-behavior",
+  "main": "index.js",
+  "homepage": "https://github.com/rally25rs/marionette-svg-behavior",
+  "authors": [
+    "Jeff Valore <rally25rs@yahoo.com>"
+  ],
+  "description": "Load and inline SVG images into Backbone Marionette views",
+  "keywords": [
+    "marionette",
+    "marionettejs",
+    "backbone",
+    "backbonejs",
+    "svg"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
