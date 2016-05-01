@@ -12,9 +12,9 @@ module.exports = function(Marionette, $, _) {
 
     _svgMergeAttributes: function($placeholder, $svg) {
       _.each($placeholder[0].attributes, function(attribute) {
-        if(attribute === 'class') {
-          $svg.attr(attribute.nodeName, attribute.nodeValue + ' ' + $svg.attr(attribute));
-        } else if(attribute !== 'data-src') {
+        if(attribute.nodeName === 'class') {
+          $svg.attr(attribute.nodeName, attribute.nodeValue + ' ' + $svg.attr(attribute.nodeName));
+        } else if(attribute.nodeName !== 'data-src') {
           $svg.attr(attribute.nodeName, attribute.nodeValue);
         }
       });
