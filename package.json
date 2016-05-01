@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/rally25rs/marionette-svg-behavior#readme",
   "peerDependencies": {
-    "backbone.marionette"
+    "backbone.marionette": "*"
   }
 }
