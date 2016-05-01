@@ -2,7 +2,7 @@
 
 This is a very simple Marionette view behavior that helps you embed SVG images into your view.
 
-The mosy robust way to use SVGs on the web is to put the entire SVG XML contents directly into the page because it can then be styled with CSS and manipulated with JavaScript.
+The most robust way to use SVGs on the web is to put the entire SVG XML contents directly into the page because it can then be styled with CSS and manipulated with JavaScript.
 
 This plugin loads the SVG image from your server (using jQuery AJAX) and puts the entire contents of the SVG image into your view.
 
